@@ -4,7 +4,11 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="s2" class="Com.Model.Student" scope="prototype">
-        <!-- collaborators and configuration for this bean go here -->
+    <bean id="s" class="com.model.Student">
+        <property name="rollno" value="1"></property>
+        <property name="name" value="sb"></property>
+        <property name="address" value="pune"></property>
+        
     </bean>
-  </beans>
+
+</beans>
