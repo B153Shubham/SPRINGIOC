@@ -4,8 +4,10 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="s" class="Com.Model.Student" scope="singleton">
-        <!-- collaborators and configuration for this bean go here -->
+    <bean id="s" class="Com.Model.Student">
+        <constructor-arg name="rollno" value="1"></constructor-arg>
+        <constructor-arg name="name" value="svb"></constructor-arg>
+        <constructor-arg name="address" value="mul"></constructor-arg>
     </bean>
     
   </beans>

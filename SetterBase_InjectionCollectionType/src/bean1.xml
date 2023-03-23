@@ -4,10 +4,11 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="s" class="Com.Model.Student">
-        <constructor-arg name="rollno" value="1"></constructor-arg>
-        <constructor-arg name="name" value="svb"></constructor-arg>
-        <constructor-arg name="address" value="mul"></constructor-arg>
+    <bean id="s" class="com.model.Student">
+        <property name="rollno" value="1"></property>
+        <property name="name" value="sb"></property>
+        <property name="address" value="pune"></property>
+        
     </bean>
-    
-  </beans>
+
+</beans>

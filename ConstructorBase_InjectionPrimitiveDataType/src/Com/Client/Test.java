@@ -15,7 +15,7 @@ public class Test {
 		
 		ApplicationContext ac=new ClassPathXmlApplicationContext("beans.xml");
 		
-//		Student s=(Student) ac.getBean("s");  //here taking typecasting bf.getBean("s")
-//		s.display();
+		Student s=ac.getBean("s",Student.class);
+		s.display();
 	}
 }
